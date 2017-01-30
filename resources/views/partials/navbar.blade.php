@@ -12,7 +12,7 @@
 
             <!-- Branding Image -->
             <a class="navbar-brand" href="{{ url('/') }}">
-                Lara POS
+                {{ trans('app.name') }}
             </a>
         </div>
 
