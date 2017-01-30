@@ -12,7 +12,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="/js/app.js"></script>
-    <script src="/js/all.js"></script>
+    <script src="{{ URL::asset('/js/app.js') }}"></script>
+    <script src="{{ URL::asset('/js/all.js') }}"></script>
 </body>
 </html>
